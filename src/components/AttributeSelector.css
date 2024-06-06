@@ -1,0 +1,13 @@
+.attribute-selector {
+    margin-bottom: 20px;
+  }
+  
+  .carousel-container {
+    width: 500px;
+  }
+  
+  .carousel-item {
+    display: flex;
+    justify-content: center;
+  }
+  
