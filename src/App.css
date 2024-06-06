@@ -1,34 +1,45 @@
-/* * {
-  background-color: beige;
-  z-index: 1000000;
-} */
+body {
+  background-color: rgb(255, 242, 185);
+}
 
 .App {
+  height: 100%;
+  width: 100%;
   margin: 0px, 0px;
   padding: 0px, 0px;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  flex: auto;
+  flex: 3;
+}
+
+.header {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .selectors {
-  margin: 0px, 0px;
+  margin-right: 200px; 
   padding: 0px, 0px;
   width: 500px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   flex-wrap: wrap;
-  border: 1px solid;
+  border: 1px transparent;
+  border-radius: 50px;
+  background-color: rgb(254, 255, 243);
 }
 
 .burt {
+  margin-left: 200px;
   width: 500px;
   display: flex;
   flex-direction: column;
   justify-content: center;  
   margin: 0px, 0px;
   padding: 0px, 0px;
-  border: 1px solid;
+  border: 1px transparent;
 }

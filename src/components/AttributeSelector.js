@@ -12,16 +12,16 @@ const AttributeSelector = ({ title, options, selected, onChange }) => {
   }, [currentIndex, options, onChange]);
 
   const imageStyle = {
-    border: '2px solid black',
+    border: '2px solid white',
     cursor: 'pointer',
     width: '100px',
     height: '100px',
-    borderRadius: '10px'
+    borderRadius: '20px'
   };
 
   const settings = {
-    dots: true,
-    infinite: false,
+    dots: false,
+    infinite: true,
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
@@ -33,7 +33,7 @@ const AttributeSelector = ({ title, options, selected, onChange }) => {
           slidesToShow: 2,
           slidesToScroll: 1,
           infinite: true,
-          dots: true
+          dots: false
         }
       },
       {
@@ -61,7 +61,7 @@ const AttributeSelector = ({ title, options, selected, onChange }) => {
               alt={option}
               style={{
                 ...imageStyle,
-                border: selected === option ? '2px solid white' : '2px solid black',
+                border: selected === option ? '2px solid black' : '2px solid white',
               }}
             />
           </div>
